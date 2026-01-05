@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data + checkpoints
+data/incoming/
+data/checkpoints/
+
+# Secrets
+.env
+postgres_connection_details.txt
