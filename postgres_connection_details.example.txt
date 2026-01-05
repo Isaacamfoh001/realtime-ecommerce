@@ -1,0 +1,6 @@
+host: localhost
+port: 5432
+database: realtime_ecommerce
+user: realtime_user
+password: realtime_pass
+table: ecommerce_events
