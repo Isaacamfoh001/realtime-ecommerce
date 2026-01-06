@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS ecommerce_events (
  
-  event_id UUID PRIMARY KEY,
+  event_id TEXT PRIMARY KEY,
   event_time TIMESTAMPTZ NOT NULL,
   stored_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   user_id INTEGER NOT NULL,
